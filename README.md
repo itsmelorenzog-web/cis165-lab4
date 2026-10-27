@@ -32,3 +32,20 @@ How to run
 
 In OnlineGDB, open one .cpp file at a time, choose C++17, and click Run. Each file is its own program and has its own main function.
 
+
+## How to Compile and Run
+
+I used OnlineGDB to compile and run both C++ programs separately using C++17.
+
+To compile the programs using g++, use these commands:
+
+g++ -std=c++17 -Wall -Wextra average.cpp -o average
+g++ -std=c++17 -Wall -Wextra ocean_levels.cpp -o ocean_levels
+
+To run the programs:
+
+./average
+./ocean_levels
+
+Both programs display their results automatically without requiring user input.
+  
